@@ -1,0 +1,84 @@
+#txtCity {
+    margin-left: 41%;
+    width: 209px;
+}
+#txtStateCity {
+    margin-left: 41%;
+    width: 209px;
+    margin-bottom: 30px;
+}
+#lbStateCity, #lbCity {
+    margin-left: 41%;
+    margin-top: 5px;
+    font-weight: normal;
+}
+.page-header {
+    color: white;
+}
+#formWeather {
+    color: white;
+}
+#btnConfirm, #btnClean {
+    background-color: #002c76;
+    margin: 10px;
+    margin-left: 41%;
+    width: 209px;
+    border: cadetblue;
+}
+#textTemperature {
+    font-size: 90px;
+    color: white;
+    font-weight: bold;
+    text-align: left;
+}
+#iconWeather {
+    float: left;
+    margin-right: 5px;
+    margin-left: 40%;
+    margin-top: 2.3%;
+}
+#resultTemperature {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+#section {
+    margin-top: 4.1%;
+}
+#section02 {
+    margin-top: 1.0%;
+}
+#navbarMenu {
+    background-color:#002c76;
+}
+#fontMenu {
+    color: white;
+}
+#overlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+    cursor: pointer;
+}
+#textError{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 20px;
+    color: white;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+}
+#btnErrorConfirm {
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 55%;
+    left: 47%;
+}
