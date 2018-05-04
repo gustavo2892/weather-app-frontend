@@ -47,7 +47,7 @@ export default class Weather extends Component {
         let city = this.state.city
         let stateCity = this.state.stateCity
 
-        axios.get(`http://localhost:3000/weather?city=${city}&stateCity=${stateCity}`)
+        axios.get(`https://weather-app-backend-gvf15.herokuapp.com/weather?city=${city}&stateCity=${stateCity}`)
             .then(res => { 
 
                 if (res.data.error == "OVER_QUERY_LIMIT") {
